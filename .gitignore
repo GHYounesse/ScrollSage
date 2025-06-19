@@ -1,0 +1,68 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+**/node_modules/
+**/dist/
+**/build/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Angular build artifacts
+**/out-tsc/
+**/.angular/
+**/angular/cache/
+
+# TypeScript cache
+**/*.tsbuildinfo
+
+# Compiled Java class files
+**/target/
+**/*.class
+
+# Maven files
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/release.properties
+
+# Spring Boot specific
+**/logs/
+**/*.war
+**/*.jar
+
+# Editor config backups
+*~ 
+*.swp
+
+# Coverage
+coverage/
+**/coverage/
+**/.nyc_output/
+
+# Misc
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
